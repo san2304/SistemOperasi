@@ -12,9 +12,9 @@ rem seting perhitungan
 set /a luas=alas*tinggi/2
 if %luas% GEQ 500 (
     set grade=Kategori Besar
-)else if %luas% GEQ 100 (
+) else if %luas% GEQ 100 (
     set grade=Kategori Sedang
-)else(
+) else (
     set grade=Kategori Kecil
 )
 cls
@@ -26,6 +26,6 @@ echo -------------------------------
 echo Alas   :%alas%
 echo Tinggi :%tinggi%
 echo -------------------------------
-echo Luas Segitiga      :
-echo Kategori Bangunan  :
-pause
+echo Luas Segitiga      :%luas%
+echo Kategori Bangunan  :%grade%
+pause >nul
