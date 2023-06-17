@@ -2,14 +2,15 @@
 title Latihan 7 Inputan Persegi Panjang
 
 rem variabel dan inputan
-set /p p=
-set /p l=
+set /p p=Masukan Panjang :
+set /p l=Masukan Lebar   :
 set /a luas=p*luas
+
 if %luas% GEQ 500 (
     set grade=Kategori Besar
-)else if %luas% GEQ 100 (
+) else if %luas% GEQ 100 (
     set grade=Kategori Sedang
-)else(
+) else (
     set grade=Kategori Kecil
 )
 cls
@@ -33,4 +34,4 @@ echo Lebar Bangunan   :%l%>>hasil.txt
 echo Luas Bangunan    :%luas%>>hasil.txt
 echo Kategori         :%grade%>>hasil.txt
 echo ------------------------------->>hasil.txt
-pause
+pause >nul
