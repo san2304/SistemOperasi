@@ -4,9 +4,9 @@ title Setting My Komputer
 color b5
 
 cls
-echo ===================
-echo SETTING KOMPUTER
-echo ===================
+echo ==============================
+echo        SETTING KOMPUTER
+echo ==============================
 echo [1] Setting Keyboard
 echo [2] Setting Language
 echo [3] Setting Date 
@@ -14,7 +14,7 @@ echo [4] Add user
 echo [5] Sound Control
 echo [6] Open Startup
 echo [7] chrome
-echo [88] Kembali       [0] Keluar
+echo [88] Kembali        [0] Keluar
 echo .
 set /p "pilihmenu=Masukkan Pilihan Menu :"
 
