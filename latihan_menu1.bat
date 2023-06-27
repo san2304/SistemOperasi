@@ -1,27 +1,26 @@
 @echo off
-
 :begin
 cls
 echo Menu Program:
 echo 1. Hello
 echo 2. System Info
-echo 3. Exit echo 
+echo 3. Exit 
 echo 4. dddd
-set /p pilihan=Pilhan Menu Anda:
 
+set /p pilihan=Pilhan Menu Anda:
 if %pilihan% == 1 (
-    goto 1
+goto 1
 ) else if %pilihan% == 2 (
-    goto 2
+goto 2
 ) else if %pilihan% == 3 (
-    goto 3
+goto 3
 )
 
 :1
 cls
-echo ================================
+echo ==================================
 echo SELAMAT DATANG DI HALAMAN UTAMA
-echo ================================
+echo ==================================
 echo echo Hi, Selamat Pagi
 pause
 goto begin
