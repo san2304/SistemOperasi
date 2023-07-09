@@ -60,8 +60,8 @@ rem MENU JARINGAN
     if %pilih%==1 goto ip
     if %pilih%==2 goto ping
     if %pilih%==3 goto snk
-    if %pilih%==0 goto regist
-    if %pilih%==1 goto dx
+    if %pilih%==4 goto regist
+    if %pilih%==5 goto dx
     if %pilih%==0 goto menu
 
     rem SUBMENU APLIKASI
