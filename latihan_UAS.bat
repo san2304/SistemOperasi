@@ -9,8 +9,8 @@ echo .
 echo ---------------------------------------------
 set /p user=     User    :
 set /p password= Pasword :
-if "%user%"=="san123" (
-    if "%password%"=="san123" (
+if %user%==san123 (
+    if %password%==san123 (
     goto begin
     ) else (
     echo Password salah
@@ -21,7 +21,7 @@ if "%user%"=="san123" (
     echo User tidak valid
     pause
     goto login
-)
+    )
 
 :begin
 cls
