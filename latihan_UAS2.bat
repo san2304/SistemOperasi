@@ -64,7 +64,7 @@ rem MENU JARINGAN
     if %pilih%==5 goto dx
     if %pilih%==0 goto menu
 
-    rem SUBMENU APLIKASI
+    rem SUBMENU JARINGAN 
         :ip
         cls
         ipconfig
